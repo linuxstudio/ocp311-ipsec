@@ -1,0 +1,5 @@
+- hosts: nodes
+  vars:
+    ipsec_configuration: nonopportunistic
+  roles:
+  - role: openshift-ipsec

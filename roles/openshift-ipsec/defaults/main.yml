@@ -1,0 +1,4 @@
+---
+# defaults file for openshift-ipsec
+ipsec_ca_dir: /etc/ipsec-ca
+ipsec_plutodebug: none
