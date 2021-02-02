@@ -10,5 +10,6 @@ conn {{ other_host }}
         rightrsasigkey=%cert
         auto=start
         keyingtries=%forever
+        encapsulation=yes
 {%   endif -%}
 {% endfor -%}
